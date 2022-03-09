@@ -25,14 +25,14 @@ void setup()
   //println("One plus two is", int(one)+two); //Casting is int(one), to change STRING to INTEGER
 }//End setup
 //
-void draw() 
+void draw()
 {
   two*=skipCount; //+=, -=, *=, /=
   println(d+z, e, f, g, ten+y, h, str(two)+z);
-  twenty/=skipCount; // Formula to count backwards from 10000
-  println(d+z, e, f, g, one+y, h, "backwards from", str(twenty)+z);
-  thirty/=skipCount; // Formula to count backwards from 10000
-  println(d+z, e, f, g, one+y, h, "backwards from", str(thirty)+z);
+  twenty/=skipCount; // Formula to count backwards from 10000 //ten-1, ten--, ten-=1
+  println(d+z, e, f, g, one+y, "backwards from", str(twenty)+z);
+  thirty/=skipCount; // Formula to count backwards from 10000 //ten-1, ten--, ten-=1
+  println(d+z, e, f, g, one+y, "backwards from", str(thirty)+z);
 }//End draw
 //
 void keyPressed() {
