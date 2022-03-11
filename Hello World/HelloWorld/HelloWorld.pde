@@ -27,11 +27,11 @@ void setup()
 //
 void draw()
 {
-  two*=skipCount; //+=, -=, *=, /=
+  two+=skipCount; //+=, -=, *=, /=
   println(d+z, e, f, g, ten+y, h, str(two)+z);
   twenty/=skipCount; // Formula to count backwards from 10000 //ten-1, ten--, ten-=1
   println(d+z, e, f, g, one+y, "backwards from", str(twenty)+z);
-  thirty/=skipCount; // Formula to count backwards from 10000 //ten-1, ten--, ten-=1
+  thirty*=skipCount; // Formula to count backwards from 10000 //ten-1, ten--, ten-=1
   println(d+z, e, f, g, one+y, "backwards from", str(thirty)+z);
 }//End draw
 //
