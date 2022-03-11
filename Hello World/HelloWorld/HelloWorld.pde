@@ -6,14 +6,14 @@ char z, y;
 //
 void setup() 
 {
-  String secondSentence = "Joe Mama counts to 10, by 1."; //Local Variables
+  String secondSentence = "Joe Mama blinks to 10, by 1."; //Local Variables
   //println (secondSentence);
   //Populations, Declaration, Valuing
   z = '.';
  y = ',';
  d = "Joe";
  e = "Mama";
- f = "counts";
+ f = "blinks";
  g = "to";
  ten = "10000";
  twenty = 10000;
