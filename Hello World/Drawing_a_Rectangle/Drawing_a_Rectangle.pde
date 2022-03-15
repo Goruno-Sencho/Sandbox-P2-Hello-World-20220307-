@@ -12,7 +12,7 @@ Boolean nightMode=false; //Daytime is false
 //
 void setup()
 {
-  //size(700, 500); //Display Geometry (Orientations): Square, Landscape, Portrait
+  //size(900, 750); //Display Geometry (Orientations): Square, Landscape, Portrait
   fullScreen(); //displayWidth, displayHeigth
   //Population
   x = width*1/4;
@@ -73,7 +73,5 @@ void mousePressed()
 
 
 /*
- 
- 
  //End of Program
  */
